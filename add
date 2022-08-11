@@ -1,0 +1,7 @@
+var myDictionary:[String:Int] = ["Mohan":75, "Raghu":82, "John":79]
+ 
+myDictionary["Surya"] = 88
+ 
+for (key, value) in myDictionary {
+    print("\(key) : \(value)")
+}
