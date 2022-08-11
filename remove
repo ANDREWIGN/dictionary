@@ -1,0 +1,6 @@
+var dictionary : Dictionary<Int, String> = [12:"tabola",13:"pulsa",14:"carpeta"]
+ dict . removeValueforKey(13);
+for (k,v) in dictionary
+{
+print("k=\(k) v=\(v)")
+}
